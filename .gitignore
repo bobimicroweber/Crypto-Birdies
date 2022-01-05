@@ -2,3 +2,7 @@
 /build/contracts
 .env
 truffle-config.js
+.idea/vcs.xml
+.idea/modules.xml
+.idea/Crypto-Birdies.iml
+.DS_Store
