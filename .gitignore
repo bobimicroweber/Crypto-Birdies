@@ -6,3 +6,4 @@ truffle-config.js
 .idea/modules.xml
 .idea/Crypto-Birdies.iml
 .DS_Store
+.secret
