@@ -270,12 +270,13 @@ contract("CryptoBirdies", (accounts) => {
 
   describe("totalSupply()", () =>{
   it("should record the total supply of tokens", async () => {
+
     await testBirdiesInstance.testCreateBird(101, accounts[0]);
     
     //the total supply should be Bird0 and the test bird created here.
     var supply = await testBirdiesInstance.totalSupply();
 
-    assert.equal(supply, 2, "The record of total supply is flawed and can't be trusted");
+    assert.equal(supply, 1, "The record of total supply is flawed and can't be trusted");
   });
 });
 
