@@ -7,3 +7,4 @@ truffle-config.js
 .idea/Crypto-Birdies.iml
 .DS_Store
 .secret
+/contracts/

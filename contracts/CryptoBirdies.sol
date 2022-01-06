@@ -146,7 +146,7 @@ contract CryptoBirdies is Ownable, Destroyable, IERC165, IERC721 {
     }
 
     function totalSupply() external view returns (uint256 total) {
-        return birdies.length; 
+        return birdies.length;
     }
 
     function name() external view returns (string memory tokenName){
